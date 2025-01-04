@@ -19,9 +19,9 @@ export default function Footer() {
         <div className="footer-section">
           <h2>Contact Us</h2>
           <p>
-            <strong>Phone:</strong> +44 221 133 5360
+            <strong>Phone:</strong>  +919818......
             <br />
-            <strong>Email:</strong> customercare@mettamuse.com
+            <strong>Email:</strong> appscrip@gmail.com
           </p>
         </div>
         <div className="footer-section">
