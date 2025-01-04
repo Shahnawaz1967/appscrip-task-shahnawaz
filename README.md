@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Ecommerce webpage  
 
-## Getting Started
+This project is a responsive webpage built using **Next.js** as the framework, **React.js** for the UI, and **Core CSS** for styling. The project follows best practices, including the use of **semantic HTML elements** to ensure accessibility and clean code.  
 
-First, run the development server:
+## 🛠️ Technologies Used  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js**: For building and rendering the application.  
+- **React.js**: To create dynamic and reusable UI components.  
+- **Core CSS**: For styling and responsive design.  
+- **Semantic HTML**: To improve accessibility and SEO.  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📋 Features  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 📱 Fully Responsive  
+- The webpage adapts seamlessly to mobile, tablet, and desktop screen sizes.  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### ⚡ Server-Side Rendering (SSR)  
+- Utilized **Next.js** SSR for faster page loads and improved SEO.  
 
-## Learn More
+### 🌟 SEO Optimized  
+- Custom **page titles**, **meta descriptions**, and **semantic tags** like `<header>`, `<main>`, `<section>`, and `<footer>`.  
 
-To learn more about Next.js, take a look at the following resources:
+### 🧹 Clean and Organized Code  
+- Proper folder structure and meaningful naming conventions for better readability.  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 How to Run the Project  
 
-## Deploy on Vercel
+1. **Clone the repository**:  
+   ```bash  
+   git clone https://github.com/Shahnawaz1967/appscrip-task-shahnawaz.git 
+   cd app-scrip-shahnawaz  
+Install dependencies:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+bash
+Copy code
+npm install  
+Run the development server:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+bash
+Copy code
+npm run dev  
+View the project:
+Open your browser and go to http://localhost:3000.
