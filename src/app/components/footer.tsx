@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="footer-content">
         <div className="footer-section">
           <h2>Be the First to Know</h2>
-          <p>Sign up for updates from Metta Muse.</p>
+          <p>Sign up for updates from appscrip.</p>
           <div className="email-signup">
             <input
               type="email"
