@@ -1,0 +1,30 @@
+/* Container */
+.loading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #ffffff; /* Optional: to match the background color */
+}
+
+/* Spinner */
+.loading-spinner {
+  width: 128px; /* Matches h-32 */
+  height: 128px; /* Matches w-32 */
+  border-radius: 50%;
+  border-top: 4px solid #1f2937; /* Matches border-gray-900 */
+  border-bottom: 4px solid #1f2937;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  animation: spin 1s linear infinite;
+}
+
+/* Keyframes for spinning */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

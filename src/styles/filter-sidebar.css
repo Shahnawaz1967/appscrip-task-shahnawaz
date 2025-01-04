@@ -1,0 +1,85 @@
+/* Sidebar Styles */
+.filter-sidebar {
+  width: 100%;
+  max-width: 16rem;
+  background-color: #ffffff;
+  border-right: 1px solid #e5e7eb;
+  min-height: 100vh;
+}
+
+/* Header */
+.filter-header {
+  padding: 16px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.filter-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+/* Filter Groups */
+.filter-groups {
+  border-top: 1px solid #e5e7eb;
+}
+
+.filter-group {
+  padding: 16px;
+}
+
+.filter-group-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+}
+
+.filter-group-title {
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: #374151;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  color: #374151;
+}
+
+/* Filter Options */
+.filter-options {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filter-checkbox {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.filter-checkbox:checked {
+  background-color: #3b82f6;
+  border-color: #3b82f6;
+}
+
+.filter-label {
+  font-size: 0.875rem;
+  color: #374151;
+}
