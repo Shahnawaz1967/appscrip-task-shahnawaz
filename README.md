@@ -1,6 +1,6 @@
 # 🌐 Ecommerce webpage  
 
-This project is a responsive webpage built using **Next.js** as the framework, **React.js** for the UI, and **Core CSS** for styling. The project follows best practices, including the use of **semantic HTML elements** to ensure accessibility and clean code.  
+This Ecommernce webpage is a responsive webpage built using **Next.js** as the framework, **React.js** for the UI, and **Core CSS** for styling. The project follows best practices, including the use of **semantic HTML elements** to ensure accessibility and clean code.  
 
 ## 🛠️ Technologies Used  
 
